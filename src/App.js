@@ -1,12 +1,13 @@
-
+import React from 'react';
 import './App.css';
+import MovieComponent from './MovieComponent'
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello World!!</h1>
+    <div className='App'>
+      <MovieComponent/>
     </div>
-  );
+  )
 }
 
 export default App;
