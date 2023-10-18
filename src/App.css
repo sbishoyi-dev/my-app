@@ -27,3 +27,23 @@ li {
   margin: 0.5 rem;
   padding: 0.5 rem;
 }
+
+.colorizer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.colorizer .box {
+  width: 13rem;
+  height: 13rem;
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid brown;
+  border-radius: 0.5rem;
+}
+
+.colorizer button {
+  cursor: pointer;
+}

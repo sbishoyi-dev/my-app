@@ -1,11 +1,11 @@
-import React from 'react';
+
+import Cricket from './Cricket';
 import './App.css';
-import MovieComponent from './MovieComponent'
 
 function App() {
   return (
     <div className='App'>
-      <MovieComponent/>
+      <Cricket randomMax={7}/>
     </div>
   )
 }
