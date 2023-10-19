@@ -1,11 +1,11 @@
 
-import Cricket from './Cricket';
+import FindUser from './FindUser';
 import './App.css';
 
 function App() {
   return (
     <div className='App'>
-      <Cricket randomMax={7}/>
+      <FindUser />
     </div>
   )
 }
