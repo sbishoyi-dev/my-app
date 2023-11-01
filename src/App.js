@@ -8,6 +8,6 @@ function App() {
       <FindUser />
     </div>
   )
-}
+} 
 
 export default App;
